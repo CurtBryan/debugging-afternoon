@@ -22,6 +22,7 @@ class ShoppingCart extends Component {
         </div>
       );
     });
+    console.log(shoppingCartDisplay);
     return (
       <div className="shopping-cart-container">
         {shoppingCartDisplay[0] ? (
